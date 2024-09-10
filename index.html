@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+    <body>
+
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <!-- <i class="fas fa-user"></i> -->
+                <img class="logo-img" src="./images/gp_logo.webp" alt="">
+                <p>Gokulprasanth</p>
+
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#qualifications"><i class="fas fa-graduation-cap"></i> Qualifications</a></li>
+                <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </div>
+        <script src="nav.js"></script>
+    </nav>
+
+
+    <section id="home" class="section-intro ">
+        <div class="intro-container">
+            <div class="intro-text">
+                <h1 >Hi, I'm Gokulprasanth</h1>
+                <p>I'm a web developer passionate about creating interactive and user-friendly websites.</p>
+            </div>
+            <div class="profile-image-container">
+                <img src="./images/Gokul_pic.png" alt="Description of Image" class="profile-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- Qualifications Section -->
+    <section id="qualifications" class="section-qualifications">
+        <h2>My Qualifications</h2>
+        <div class="qualifications-container">
+            <!-- Qualification 1 -->
+            <div id="exp" class="qualification">
+                <img src="./images/vvdn_img.png" alt="Degree 1" id="vvdn_img" class="qualification-image">
+                <h3>VVDN Technologies, Pollachi</h3>
+                <p>Worked as a Backend Developer in Networking and Wifi domain</p>
+                <p>2022 - 2023</p>
+            </div>
+    
+            <!-- Qualification 2 -->
+            <div class="qualification">
+                <img src="./images/kgisl.jfif" alt="Degree 2" class="qualification-image">
+                <h3>KGISL micrcollege, Coimbatore</h3>
+                <p>Certified full stack Developer</p>
+                <p>may- september 2024</p>
+            </div>
+    
+            <!-- Qualification 3 -->
+            <div class="qualification">
+                <img src="./images/PAcollege.jfif" alt="Degree 3" class="qualification-image">
+                <h3>P.A college of Engineering and Technologies, Pollachi</h3>
+                <p>Bachelor of Engineering in Electrical and Electronics</p>
+                <p>2018 - 2022</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-projects">
+        <h2>My Projects</h2>
+        
+        <!-- Project Category Buttons -->
+        <div class="project-categories">
+            <button class="filter-btn" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="html">HTML Projects</button>
+            <button class="filter-btn" data-filter="js">JS Projects</button>
+        </div>
+        
+        <!-- HTML Projects Row -->
+        <div class="projects-row html-projects">
+            <div class="project" data-category="html">
+                <a href="https://dulcet-mermaid-112882.netlify.app" target="_blank">
+                    <img src="./images/birth.png" alt="HTML Project One" class="project-image">
+                </a>
+            </div>
+            <div class="project" data-category="html">
+                <a href="https://stirring-dolphin-9dd2a5.netlify.app" target="_blank">
+                    <img src="./images/gun_safety.png" alt="HTML Project Two" class="project-image">
+                </a>
+            </div>
+            <div class="project" data-category="html">
+                <a href="https://cheery-churros-bc9502.netlify.app" target="_blank">
+                    <img src="./images/Living_life.png" alt="HTML Project Three" class="project-image">
+                </a>
+            </div>
+            <div class="project" data-category="html">
+                <a href="https://loquacious-creponne-b9e659.netlify.app" target="_blank">
+                    <img src="./images/Torshov.png" alt="HTML Project Four" class="project-image">
+                </a>
+            </div>
+        </div>
+        
+        <!-- JS Projects Row -->
+        <div class="projects-row js-projects">
+            <div class="project" data-category="js">
+                <a href="https://dazzling-lamington-8067dd.netlify.app" target="_blank">
+                    <img src="./images/hexaclr.png" alt="JS Project One" class="project-image">
+                </a>
+            </div>
+            <div class="project" data-category="js">
+                <a href="https://eloquent-sunflower-353c65.netlify.app" target="_blank">
+                    <img src="./images/inch.png" alt="JS Project Two" class="project-image">
+                </a>
+            </div>
+            <div class="project" data-category="js">
+                <a href="https://stately-torte-6fb2d8.netlify.app" target="_blank">
+                    <img src="./images/Photo_fetch.png" alt="JS Project Three" class="project-image">
+                </a>
+            </div>
+            <div class="project" data-category="js">
+                <a href="https://resplendent-moxie-c80a1e.netlify.app" target="_blank">
+                    <img src="./images/student.png" alt="JS Project Four" class="project-image">
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <span class="section__subtitle">Get in touch</span>
+
+        <div class="contact__container container grid section__border">
+            <div class="contact__content">
+                <h3 class="contact__title">
+                    <i class="ri-chat-3-line"></i> Talk to me
+                </h3>
+
+                <div class="contact__info">
+                    <div class="contact__data">
+                        <span class="contact__data-title">Email</span>
+                        <span class="contact__data-info">gokulprasanth1012@gmail.com</span>
+                    </div>
+
+                    <div class="contact__data">
+                        <span class="contact__data-title">Whatsapp</span>
+                        <span class="contact__data-info">+91 9865084204</span>
+                        <!-- Insert a real number plus country code -->
+                        <a href="https://api.whatsapp.com/send?phone=919865084204&text=Hello, more information!" target="_blank" class="contact__button">
+                            Write me <i class="ri-arrow-right-line"></i>
+                        </a>
+                    </div>
+
+                   
+                </div>
+            </div>
+            
+            <div class="contact__content">
+                <h3 class="contact__title">
+                    <i class="ri-send-plane-line"></i> Hire Me !
+                </h3>
+
+                <form action="" class="contact__form" id="contact-form">
+                    <div class="contact__form-div">
+                        <label class="contact__form-tag">Name</label>
+                        <input type="text" name="user_name" required placeholder="Write your name" class="contact__form-input" id="contact-name">
+                    </div>
+
+                    <div class="contact__form-div">
+                        <label class="contact__form-tag">Mail</label>
+                        <input type="email" name="user_email" required placeholder="Write your mail" class="contact__form-input" id="contact-email">
+                    </div>
+
+                    <div class="contact__form-div contact__form-area">
+                        <label class="contact__form-tag">Project</label>
+                        <textarea name="user_project" placeholder="Write your message" class="contact__form-input" id="contact-project"></textarea>
+                    </div>
+
+                    <p class="contact__message" id="contact-message"></p>
+
+                    <button type="submit" class="contact__button">
+                        Submit <i class="ri-arrow-right-up-line"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+   <!-- Footer -->
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Gokulprasanth</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.github.com" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+</body>
+</html>
